@@ -1,3 +1,8 @@
-p {
-    color: red;
-  }
+.nav {
+  padding: 10px 30px;
+  text-align: right;
+}
+.nav-form {
+  padding: 0px 5px;
+  color:darkgoldenrod
+}
