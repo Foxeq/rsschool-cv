@@ -1,0 +1,136 @@
+.wrapper {
+  width: 1000px;
+  margin: 0 auto;
+}
+.body {
+  margin: 0 auto;
+  display:block;
+  background-color:rgb(0, 0, 0);
+}
+.nav {
+  padding: 10px 0px 30px;
+  width: 1000px;
+  text-align: center;
+  margin: 0 auto;
+}
+.nav-form {
+  font: 12pt sans-serif;
+  color:darkgoldenrod
+}
+.header {
+  background-size:cover;
+  background-image: url('/img/header.jpg');
+}
+.photo {
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px darkgoldenrod, 0 0 13px #333;
+  margin-top: 10%;
+  margin-left: 31%;
+  margin-bottom: 10%;
+}
+.section {
+  background-color:rgb(0, 0, 0);
+  border-bottom: 3px solid #f9dd94;
+  font: 12pt sans-serif;
+  color: darkgoldenrod;
+  margin: 0 auto;
+}
+.ul {
+  margin: 0;
+  padding: 4px;
+}
+.ul li {
+  display: inline;
+  margin-right: 5px;
+  border: 1px solid darkgoldenrod;
+  padding: 3px 10px;
+}
+.aside {
+  background-color:rgb(0, 0, 0);
+  color: darkgoldenrod;
+  border-right:#f9dd94;
+  width: 250px;
+  margin: 0 auto;
+  float: left;
+}
+.div1 {
+  color: darkgoldenrod;
+  background-color:rgb(0, 0, 0);
+  width: 750px;
+  text-align: center;
+  margin: 0 250px;
+}
+.main {
+  background-color:rgb(0, 0, 0);
+  margin: -21px 0px;
+  height: 761px;
+  
+}
+.ul2 {
+  font: 12pt sans-serif;
+  border-left: 3px solid #f9dd94;
+  list-style-type: square;
+}
+.aside-form {
+  text-align: center;
+  color: darkgoldenrod;
+}
+.ul3 {
+  font: 12pt sans-serif;
+  border-left: 3px solid #f9dd94;
+  list-style-type: square;
+}
+.ul4 {
+  font: 12pt sans-serif;
+  border-left: 3px solid #f9dd94;
+  list-style-type: square;
+}
+.ul5 {
+  font: 12pt sans-serif;
+  border-left: 3px solid #f9dd94;
+  list-style-type: square;
+}
+.ul6 {
+  font: 12pt sans-serif;
+  border-left: 3px solid #f9dd94;
+}
+.div2 {
+  text-align: center;
+  margin: 0px 0px;
+  
+}
+.footer {
+  display: flex;
+  align-items: center;
+  background-color:rgb(148, 116, 9);
+  margin: 0px auto;
+  position: relative;
+  width: 1000px;
+  height: 100px;
+}
+.div6 {
+  margin: 7px 80px;
+  float: left;
+  width: 50px;
+}
+.div7 {
+  margin: 0px 275px;
+  width: 50px;
+}
+.div8 {
+  margin: 0px 100px;
+}
+.Git {
+  width: 55px;
+}
+.p {
+  font: 12pt sans-serif;
+  color: darkgoldenrod;
+}
+.code {
+  font: 12pt sans-serif;
+  color: darkgoldenrod;
+}
+.Rs {
+  width: 55px;
+}
