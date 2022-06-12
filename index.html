@@ -7,19 +7,117 @@
     <title>Резюме</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <nav class="nav">
-        <a class="nav-form" href="#Contacts">Contacts</a>
-        <a class="nav-form" href="#AboutMe">About Me</a>
-        <a class="nav-form" href="#Skills">Skills</a>
-        <a class="nav-form" href="#CodeExamples">Code examples</a>
-        <a class="nav-form" href="#Experience">Experience</a>
-        <a class="nav-form" href="#Education">Education</a>
-        <a class="nav-form" href="#Languages">Languages</a>
-    </nav>
-    <header class="header"><img src="image.jpg" alt="my photo"></header>
-    <aside></aside>
-    <main></main>
-    <footer></footer>
+<body class="body">
+    <div class="wrapper">
+        <header class="header">
+            <nav class="nav">
+                <ul class="ul">
+                       <li><a class="nav-form" href="#Contacts">Contacts</a></li>
+                       <li><a class="nav-form" href="#AboutMe">About Me</a></li>
+                       <li><a class="nav-form" href="#Skills">Skills</a></li>
+                       <li><a class="nav-form" href="#CodeExamples">Code examples</a></li>
+                       <li><a class="nav-form" href="#Experience">Experience</a></li>
+                       <li><a class="nav-form" href="#Education">Education</a></li>
+                       <li><a class="nav-form" href="#Languages">Languages</a></li>
+                   </ul>
+               </nav>
+        </header>
+    <aside class="aside">
+        <div>
+            <section class="section">
+                <h2><img src="/img/photo.jpg" alt="photo" class="photo"></h2>
+            </section>
+            <h3 class="aside-form">Contacts:</h3>
+        </div>
+        <div class="div">
+            <ul class="ul2">
+                <li class="aside-table">Email: foxeq@yandex.ru</li>
+                <li class="aside-table">Phone: +7(902)156-28-79</li>
+                <li class="aside-table">Telegramm: @Foxeq</li>
+                <li class="aside-table">Discord (Rs-school) : Foxeq</li>
+            </ul>
+        </div>
+        <div class="div2">
+            <div class="aside-form">
+            <h1>Skills:</h1>
+            </div>
+            <ul class="ul3">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+            </ul>
+        <div class="div3">
+            <div class="aside-form">
+                <h2>Experience:</h2>
+            </div>
+            <ul class="ul4">
+                <li>RS School</li>
+            </ul>
+        <div class="div4">
+            <div class="aside-form">
+                <h2>Education:</h2>
+            </div>
+            <ul class="ul5">
+                <li>Yekaterinburg Industrial and Economic College</li>
+            </ul>
+        <div class="div5">
+            <div class="aside-form">
+                <h2>Languages:</h2>
+            </div>
+            <ul class="ul6">
+                <li>Russian: Native</li>
+                <li>English: B1 - Intermediate</li>
+            </ul>
+        </div>
+        </div>
+           
+        </div>
+    </aside>
+    <main class="main">
+        <div class="div1">
+            <h1>Snigirev Alexander</h1>
+            <h2>Junior Front-End Developer</h2>
+        </div>
+        <div class="div2">
+            <h2 class="aside-form">About me:</h2>
+            <p class="p">Im a novice javascript developer, my target to complete RS-School program and find a job in good IT-company to develope new software, working on hard and interesting tasks and progressing as developer.</p>
+        </div>
+        <div>
+            <h3 class="aside-form">Code example:</h3>
+            <pre>
+                <code class="code">
+                    function betterThanAverage(classPoints, yourPoints) {
+                        let result = 0
+                        let sum = 0
+                        for (i = 0; i < classPoints.length; i++) {
+                          sum += classPoints[i]
+                          }
+                          let avg = classPoints.length ? sum / (classPoints.length + 1) : 0
+                          if (avg <= yourPoints) {
+                            return true 
+                          } else {
+                            return false
+                          }
+                        }
+                </code>
+            </pre>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="div6">
+            <h4 class="h4">2022</h4>
+        </div>
+        <div class="div7">
+            <a target="_blank" href="https://github.com/Foxeq">
+                <img src="/img/git.png" alt="GitImage" class="Git">
+            </a>
+        </div>
+        <div class="div8">
+            <a target="_blank" href="https://rs.school/js-stage0/">
+                <img src="/img/rs.png" alt="RsImage" class="Rs">
+            </a>
+        </div>
+    </footer>
+</div>
 </body>
 </html>

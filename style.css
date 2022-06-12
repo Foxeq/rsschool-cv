@@ -1,8 +1,132 @@
+.wrapper {
+  width: 1000px;
+  margin: 0 auto;
+}
+.body {
+  margin: 0 auto;
+  display:block;
+  background-color:rgb(0, 0, 0);
+}
 .nav {
-  padding: 10px 30px;
-  text-align: right;
+  padding: 10px 0px 30px;
+  width: 1000px;
+  text-align: center;
+  margin: 0 auto;
 }
 .nav-form {
-  padding: 0px 5px;
+  font: 12pt sans-serif;
   color:darkgoldenrod
+}
+.header {
+  background-size:cover;
+  background-image: url('/img/header.jpg');
+}
+.photo {
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px darkgoldenrod, 0 0 13px #333;
+  margin-top: 10%;
+  margin-left: 31%;
+  margin-bottom: 10%;
+}
+.section {
+  background-color:rgb(187, 20, 20);
+  border-bottom: 3px solid #f9dd94;
+  font: 12pt sans-serif;
+  color: darkgoldenrod;
+  margin: 0 auto;
+}
+.ul {
+  margin: 0;
+  padding: 4px;
+}
+.ul li {
+  display: inline;
+  margin-right: 5px;
+  border: 1px solid darkgoldenrod;
+  padding: 3px 10px;
+}
+.aside {
+  background-color:rgb(54, 11, 211);
+  color: darkgoldenrod;
+  border-right:#f9dd94;
+  width: 250px;
+  margin: 0 auto;
+  float: left;
+}
+.div1 {
+  color: darkgoldenrod;
+  background-color:rgb(10, 187, 128);
+  width: 750px;
+  text-align: center;
+  margin: 0 250px;
+}
+.main {
+  background-color:rgb(28, 9, 116);
+  margin: -21px 0px;
+  height: 761px;
+  
+}
+.ul2 {
+  font: 12pt sans-serif;
+  border-left: 3px solid #f9dd94;
+  list-style-type: square;
+}
+.aside-form {
+  text-align: center;
+  color: darkgoldenrod;
+}
+.ul3 {
+  font: 12pt sans-serif;
+  border-left: 3px solid #f9dd94;
+  list-style-type: square;
+}
+.ul4 {
+  font: 12pt sans-serif;
+  border-left: 3px solid #f9dd94;
+  list-style-type: square;
+}
+.ul5 {
+  font: 12pt sans-serif;
+  border-left: 3px solid #f9dd94;
+  list-style-type: square;
+}
+.ul6 {
+  font: 12pt sans-serif;
+  border-left: 3px solid #f9dd94;
+  list-style-type: square;
+}
+.div2 {
+  text-align: center;
+  margin: 0px 0px;
+  
+}
+.footer {
+  display: flex;
+  align-items: center;
+  background-color:rgb(148, 116, 9);
+  margin: 0px auto;
+  position: relative;
+  width: 1000px;
+  height: 100px;
+}
+.div6 {
+  background-color:rgb(12, 187, 27);
+  margin: 7px auto;
+  float: left;
+  width: 333px;
+}
+.div7 {
+  width: 50%;
+}
+.div8 {
+}
+.git {
+}
+.p {
+  font: 12pt sans-serif;
+  color: darkgoldenrod;
+}
+.code {
+  font: 12pt sans-serif;
+  color: darkgoldenrod;
 }
