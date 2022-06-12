@@ -19,7 +19,7 @@
 }
 .header {
   background-size:cover;
-  background-image: url('/img/header.jpg');
+  background-image: url('img/header.jpg');
 }
 .photo {
   border-radius: 50%;
